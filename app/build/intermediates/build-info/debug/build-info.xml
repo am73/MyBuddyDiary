@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1556540326963"
+    timestamp="1559567322999"
     token="-3988353845475383201"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="5705" />
+        duration="3235" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="408" />
+        duration="312" />
     <task
         name="verifier"
-        duration="78" />
+        duration="156" />
 
     <artifact
         location="D:\Tugas Garin\Smester 6\MOBCOM\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1556540326963"
+        timestamp="1559567322999"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Tugas Garin\Smester 6\MOBCOM\app\build\intermediates\split-apk\debug\slices\slice_2.apk"

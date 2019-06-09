@@ -24,13 +24,14 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setAllowContentAccess(true);
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setDatabaseEnabled(true);
-        webView.loadUrl("http://mybuddy.rf.gd/?i=1");
+        webView.loadUrl("http://mybuddy.rf.gd/?i=1"); //Ini adalah url aplikasi webview
 
 
     }
 
 
     public class myWebclient extends WebViewClient{
+
 
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // ini adalah fungsi dimana tombol back berfungsi pada webview
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if((keyCode==KeyEvent.KEYCODE_BACK) && webView.canGoBack()){
